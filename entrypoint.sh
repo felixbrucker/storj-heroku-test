@@ -6,7 +6,10 @@ sed -i 's/#HOSTNAME#/'"$HOSTNAME"'/' config.json
 sed -i 's/#PORT#/'"$PORT"'/' config.json
 sed -i 's/#KEY#/'"$KEY"'/' config.json
 
-# startup daemon and shares
+# output storage information
+df -h
+
+# startup daemon and share
 #storjshare daemon -F &
 #PID=$!
 storjshare start -c config.json --detached
