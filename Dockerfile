@@ -5,4 +5,4 @@ RUN npm install -g storjshare-daemon
 RUN mkdir share && mkdir logs
 COPY config.json .
 COPY entrypoint.sh .
-ENTRYPOINT ["entrypoint.sh"]
+CMD ["entrypoint.sh"]
