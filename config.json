@@ -54,7 +54,7 @@
   "networkPrivateKey": "#KEY#",
   // Determines how much detail is shown in the log:
   // 4 - DEBUG | 3 - INFO | 2 - WARN | 1 - ERROR | 0 - SILENT
-  "loggerVerbosity": 3,
+  "loggerVerbosity": 2,
   // Path to write the log file to disk, leave empty to default to:
   // $HOME/.config/storjshare/logs/[nodeid]_date.log
   "loggerOutputFile": "/app/logs",
